@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Membership Info</title>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <main>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+              <img class="img-fluid" src="img/logo.gif" alt="IEEE_logo" width="40" height="40">
+          </a> 
+        <!-- <a class="navbar-brand" href="#">IEEE</a> -->
+        <button class="navbar-toggler bg-warning" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+        
+            <a class="nav-link navLi" aria-current="page" href="#">Dashboard</a>
+            <a class="nav-link navLi" href="">Home</a>
+            <a class="nav-link navLi" href="#">INSB Members</a>
+            <a class="nav-link navLi" href="#">Recruitment</a>
+            <a class="nav-link navLi" href="#">Membership Renewal</a>
+            <a class="nav-link navLi" href="#">Data Access</a>
+            
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- header start -->
+    <section class="banner">
+
+      <div class="container">
+        <div class="row">
+
+          <div class="d-flex flex-column justify-content-center">
+            <h1 class="text-center fw-bold mt-3 text-uppercase text-white">This is the membership form for Spring 2023</h1>
+            <a href=""
+              class="col align-self-center btn btn-outline-warning text-white rounded my-2 my-sm-0 mt-lg-3 justify-content-center w-25">See
+              Recruitees</a>
+
+
+            <!--search session start -->
+
+            <!-- Student copy start -->
+
+            <div class="card text-center shadow p-3 mt-5 mb-5 bg-white rounded">
+              <div class="card-header text-uppercase">
+                <h3 class="txt-hd">Student Copy</h3>
+              </div>
+              <div class="card-body">
+                
+                <form>
+
+
+                  
+                  <!-- nsu id -->
+                  <div class="row mt-2 mb-2">
+                    <div class="col-2">
+                      <label class="form-label text-end">NSU ID: </label>
+                  
+                      </div>
+                      <div class="col-3">
+                        <input type="text" class="form-control" placeholder="NSU ID">
+    
+                    </div>
+                       <!-- nsu id -->
+                  <!-- name -->
+                  <div class="row mt-2 mb-2">
+                    <div class="col-2">
+                      <label class="form-label text-end">Name: </label>
+                    </div>
+                    <div class="col">
+                      <input type="text" class="form-control" placeholder="First name">
+  
+                    </div>
+                    <div class="col">
+
+                      <input type="text" class="form-control" placeholder="Middle name">
+                    </div>
+                    <div class="col">
+
+                      <input type="text" class="form-control" placeholder="Last name">
+                    </div>
+                  </div>
+                  <!-- name -->
+                  <!-- contact -->
+                  <div class="row mt-2 mb-2">
+                    <div class="col-2">
+                      <label for="staticId" class="form-label text-end">Contact: </label>
+                  
+                      </div>
+                      <div class="col-3">
+                        <input type="text" class="form-control" placeholder="Enter your contact no.">
+    
+                    </div>
+                    <div class="col-2">
+                      <label class="form-label text-end">Date of Birth: </label>
+                  
+                      </div>
+                      <div class="col-3">
+                        <input type="date" id="birthday" placeholder="DOB">
+    
+                    </div>
+                  </div>
+                       <!-- contact -->
+               
+                       <!-- email-->
+                  <div class="row mt-2 mb-2">
+                    <div class="col-2">
+                      <label class="form-label text-end">Email: </label>
+                  
+                      </div>
+                      <div class="col-3">
+                        <input type="email" class="form-control" placeholder="Enter your mail">
+    
+                    </div>
+                       <!-- email -->
+                       <!-- FB-->
+                  <div class="row mt-2 mb-2">
+                    <div class="col-2">
+                      <label class="form-label text-end">Facebook URL: </label>
+                  
+                      </div>
+                      <div class="col-3">
+                        <input type="url" class="form-control" placeholder="Facebook profile link">
+    
+                    </div>
+                       <!-- FB -->
+                       <!-- address-->
+                  <div class="row mt-2 mb-2">
+                    <div class="col-2">
+                      <label class="form-label text-end">Address: </label>
+                  
+                      </div>
+                      <div class="col-3">
+                        <input type="text" class="form-control" placeholder="Enter address">
+    
+                    </div>
+                       <!-- address -->
+                       <!-- Major-->
+                  <div class="row mt-2 mb-2">
+                    <div class="col-2">
+                      <label class="form-label text-end">Major: </label>
+                  
+                      </div>
+                      <div class="col-3">
+                        <input type="text" class="form-control" placeholder="Your major">
+    
+                    </div>
+                       <!-- Major -->
+
+                       <!-- Grad Year-->
+                  <div class="row mt-2 mb-2">
+                    <div class="col-2">
+                      <label class="form-label text-center">Graduating Year: </label>
+                  
+                      </div>
+                      <div class="col-4">
+                        <input type="text" class="form-control" placeholder="Enter Graduating Year">
+    
+                    </div>
+                       <!-- Grad Year -->
+                       <!-- Gender-->
+                  <div class="row mt-2 mb-2">
+                    <div class="col-2">
+                      <label class="form-label text-end">Gender: </label>
+                  
+                      </div>
+                      <div class="col-3">
+                      
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1"checked>
+                            <label class="form-check-label">
+                            Male
+                            </label>
+                          </div>
+                           </div>
+                           <div class="col-3">
+                      
+                            <div class="form-check">
+                              <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" checked>
+                              <label class="form-check-label">
+                                Female
+                              </label>
+                            </div>
+                             </div>
+                             <div class="col-3">
+                      
+                              <div class="form-check">
+                                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" checked>
+                                <label class="form-check-label">
+                                  Other
+                                </label>
+                              </div>
+                               </div>
+                               
+    
+                    </div>
+
+                      
+                   
+                       <!-- Gender -->
+                    
+                        <div class="card-header text-uppercase mt-3 mb-2">
+                          <h3 class="txt-hd">For Official use</h3>
+                        </div>
+                 
+                       <!-- recru by-->
+                  <div class="row mt-2 mb-2">
+                    <div class="col-2">
+                      <label class="form-label text-center">Recruited By: </label>
+                  
+                      </div>
+                      <div class="col-4">
+                        <input type="text" class="form-control" placeholder="Enter Recruitee's name">
+    
+                    </div>
+                       <!-- recru by -->
+                       <!-- cash -->
+                       <div class="col-4">
+                        <div class="form-check align-items-center">
+                          <input class="form-check-input" type="checkbox" id="">
+                          <label class="form-check-label text-center">
+                            Cash Payment
+                          </label>    
+                        </div>
+                        
+                        
+                      </div>
+                      <div class="col-3 mt-3">
+                        <a href="#" class="btn btn-primary">Register Member</a>
+                      </div>
+                          <!-- cash -->
+                
+                       
+                          
+                  
+                        
+                
+                    
+                </form>
+
+        
+          
+            <!-- Student copy end -->
+  </main>
+
+
+  <!-- footer start -->
+
+  <footer class="py-3 right-bg text-white text-center">
+    <small>&copy; All Rights Reserved by IEEE NSU STUDENT BRANCH</small>
+  </footer>
+  <!-- footer end -->
+
+</body>
+
+</html>
